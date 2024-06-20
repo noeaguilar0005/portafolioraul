@@ -1,0 +1,369 @@
+.bodyback{
+    background-color: black;
+}
+/* Parte Animacion inicio */
+.bienvenida{
+    position: absolute;
+    top: 73%;
+    left: 5%; 
+    transform: translate(-50%, -50%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+.logoefecto{
+    position: absolute;
+    top: 80%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+/* Fin Parte Animacion inicio */
+/* Parte Logo Header */
+.partelogo{
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    height: auto;
+    padding: 10px 0px;
+}
+/* Fin Parte Logo Header */
+/* Parte Botón Fijo */
+.fixed-button {
+    position: fixed;
+    bottom: 50%; 
+    right: 0; 
+    margin-right: 0;
+    transform: translateY(50%) rotate(-90deg); 
+    padding: 15px 10px; 
+    z-index: 999;
+  }
+/* Fin parte Botón Fijo */
+/* Animacion Trabajos */
+.titulotrabajos{
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.descriptiontitulo{
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.trabajos .box{
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(255, 255, 255, 0.25) 0px 0px 1px 1px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+}
+.trabajos .box::before{
+    content: "";
+    position: absolute;
+    background: black;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.trabajos .box:hover::before{
+    background: rgb(255, 255, 255);
+    top: 0;
+    border-radius: 0%;
+}
+.centradoicono{
+    text-align: center;
+}
+.trabajos .icono{
+    color: white;
+    padding: 20px 0px;
+}
+.trabajos .tittle{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.trabajos .tittle {
+    color: rgb(255, 255, 255);
+}
+.trabajos .description{
+    color: white;
+}
+.trabajos .description{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.trabajos .box:hover .tittle ,
+.trabajos .box:hover .description{
+    color: black;
+}
+.trabajos .box:hover .icono{
+    color: black;
+}
+.centradoboton{
+    text-align: center;
+}
+.descriptioncard{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+/* Fin Animacion Trabajos */
+/* Parte Servicios */
+
+/* Parte Footer */
+.backgroundfooter{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 30px 0px;
+}
+.iconosredes .iconbox{
+    position: relative;
+    transition: all 0.9 ease-in-out;
+    z-index: 1;
+}
+.iconosredes .iconbox::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.9s;
+    z-index: -1;
+}
+.iconosredes .iconbox:hover::before{
+    top: 0;
+}
+.iconosredes .iconbox:hover .red{
+    color: rgb(255, 255, 255);
+}
+.red{
+    color: rgb(158, 158, 158);
+    margin-left: 15px;
+}
+.subtitulofooter{
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+.copyright{
+    padding: 10px 0px;
+    text-align: center;
+    color: rgb(81, 81, 81);
+    font-family: "Roboto", sans-serif;
+    font-size: smaller;
+}
+/* Fin Parte Footer */
+
+/* Parte billete */
+.imagenbillete{
+    background-color: white;
+}
+.titulobillete{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.galeriabillete{
+    text-align: center;
+    width: 640px;
+    height: auto;
+}
+.descripcionbillete{
+    padding: 30px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+/* Fin Parte Billete */
+/* Parte Revista */
+.imagenrevista{
+    background-color: white;
+    padding: 100px 0px;
+}
+.titulorevista{
+    color: black;
+    text-align: center;
+}
+.descripcionrevista{
+    text-align: center;
+    color: black;
+}
+.fixed-button2{
+    position: fixed;
+    bottom: 50%; 
+    right: 0; 
+    margin-right: 0;
+    transform: translateY(50%) rotate(-90deg); 
+    padding: 15px 10px; 
+    z-index: 999;
+}
+.carousel{
+    box-shadow: rgba(0, 0, 0, 0.685) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+/* Fin Parte Revista */
+/* Parte Consulta */
+.imagenconsulta{
+    background-color: black;
+}
+/* Animación Consulta1 */
+.imagenconsulta .box2{
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(255, 255, 255, 0.25) 0px 0px 1px 1px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;    
+}
+.imagenconsulta .box2::before{
+    content: "";
+    position: absolute;
+    background: black;
+    right: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.imagenconsulta .box2:hover::before{
+    background: white;
+    right: 0;
+    border-radius: 0%;
+}
+.imagenconsulta .tittle{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.imagenconsulta .tittle {
+    color: rgb(255, 255, 255);
+}
+.imagenconsulta .description{
+    color: white;
+}
+.imagenconsulta .description{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.imagenconsulta .box2:hover .tittle ,
+.imagenconsulta .box2:hover .description{
+    color: black;
+}
+/* Fin Animación Consulta1 */
+/* Animación Consulta2 */
+.imagenconsulta .box3{
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(255, 255, 255, 0.25) 0px 0px 1px 1px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;    
+}
+.imagenconsulta .box3::before{
+    content: "";
+    position: absolute;
+    background: black;
+    right: 0;
+    left: 100%;
+    bottom: 0;
+    top: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.imagenconsulta .box3:hover::before{
+    background: white;
+    left: 0;
+    border-radius: 0%;
+}
+.imagenconsulta .tittle{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.imagenconsulta .tittle {
+    color: rgb(255, 255, 255);
+}
+.imagenconsulta .description{
+    color: white;
+}
+.imagenconsulta .description{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.imagenconsulta .box3:hover .tittle ,
+.imagenconsulta .box3:hover .description{
+    color: black;
+}
+/* Parte Botón Consulta */
+.fixed-button1{
+    position: fixed;
+    bottom: 50%;
+    left: 0;
+    transform-origin: bottom left; 
+    transform: translateY(50%) rotate(90deg); 
+    padding: 15px 10px;
+    z-index: 999;
+    margin-left: 0%;
+}
+.accordion{
+    --bs-accordion-active-bg: black;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+.centradoboton1{
+    text-align: center;
+    padding: 15px 0px;
+}
+/* Parte de Certificados */
+.logros .boxcertificado{
+    padding: 25px;
+}
+.logros{
+    background-color: white;
+}
+.titlelogros{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.textlogros{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+}
+.boxcertificado{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    padding: 30px 0px;
+}
+.paralogros{
+    padding-top: 13px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+/* Fin Parte de Certificados */
